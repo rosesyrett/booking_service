@@ -1,0 +1,17 @@
+# build files
+build
+
+# virtual environments
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#egg-info files
+*/**.egg-info
+
+# pyenv tooling
+.python-version

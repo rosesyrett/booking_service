@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "booking-service"
+version = "0.1.0"
+
+[project.scripts]
+availability = "booking_service.__main__:main"
+
+[project.optional-dependencies]
+dev = [
+    "ruff >= 0.9.9"
+]
